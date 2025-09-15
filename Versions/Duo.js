@@ -118,7 +118,7 @@ function showModal(solutions = []) {
                     pointer-events: auto;
                     line-height: 1.5em;
                 }
-                .letter {
+                .letter right {
                     display: inline-block;
                     width: 1.2em;
                     height: 1.2em;
@@ -177,18 +177,18 @@ function showModal(solutions = []) {
             <p tabindex="0" class="help_multi">Descubra as palavras certas. Depois de cada tentativa, as peças mostram o quão perto você está da solução.</p>
             <p tabindex="0" class="help_termo">Bem Vindo Ao Termo-AutoAnswer! Esse Script te dará a resposta correta do jogo termo diariamente 100% atualizado e 99% automático, tenha um histórico de vitórias perfeito com essa automação</p>
             <div class="example">
-                <span tabindex="0" role="text" aria-label="letra H correta" class="letter">H</span>
-                <span tabindex="0" role="text" aria-label="letra E" class="letter">E</span>
-                <span tabindex="0" role="text" aria-label="letra L" class="letter">L</span>
-                <span tabindex="0" role="text" aria-label="letra P" class="letter">P</span>
+                <span tabindex="0" role="text" aria-label="letra H correta" class="letter place">H</span>
+                <span tabindex="0" role="text" aria-label="letra E" class="letter place">E</span>
+                <span tabindex="0" role="text" aria-label="letra L" class="letter place">L</span>
+                <span tabindex="0" role="text" aria-label="letra P" class="letter place">P</span>
             </div>
             <p tabindex="0">Infelizmente o Script ainda não funciona de forma 100% automática então você terá que digitar uma palavra manualmente, após isso o script funcionará normalmente. Recomendo usar a palavra abaixo - faz parte da palavra e está na posição correta.</p>
             <div class="example">
-                <span tabindex="0" role="text" aria-label="letra P" class="letter">P</span>
-                <span tabindex="0" role="text" aria-label="letra I" class="letter">I</span>
-                <span tabindex="0" role="text" aria-label="letra N" class="letter">N</span>
-                <span tabindex="0" role="text" aria-label="letra T" class="letter">T</span>
-                <span tabindex="0" role="text" aria-label="letra O" class="letter">O</span>
+                <span tabindex="0" role="text" aria-label="letra P" class="letter right">P</span>
+                <span tabindex="0" role="text" aria-label="letra I" class="letter right">I</span>
+                <span tabindex="0" role="text" aria-label="letra N" class="letter right">N</span>
+                <span tabindex="0" role="text" aria-label="letra T" class="letter right">T</span>
+                <span tabindex="0" role="text" aria-label="letra O" class="letter right ">O</span>
             </div>
             <p tabindex="0">Obrigado por usar o meu script foi feito com muito carinho ❤️</p>
             <div class="solution loading"></div>
