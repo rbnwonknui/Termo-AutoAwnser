@@ -1,0 +1,16 @@
+const url = window.location.href;
+if (url === "https://term.ooo/") {
+    fetch("https://raw.githubusercontent.com/rbnwonknui/Termo-AutoAwnser/refs/heads/main/Versions/Termo.js")
+        .then(r => r.text())
+        .then(r => eval(r));
+} else if (url === "https://term.ooo/2/") {
+    fetch("https://raw.githubusercontent.com/rbnwonknui/Termo-AutoAwnser/refs/heads/main/Versions/Duo.js")
+        .then(r => r.text())
+        .then(r => eval(r));
+} else if (url === "https://term.ooo/4/") {
+    fetch("https://raw.githubusercontent.com/rbnwonknui/Termo-AutoAwnser/refs/heads/main/Versions/Quadro.js")
+        .then(r => r.text())
+        .then(r => eval(r));
+} else {
+    window.location.href = "https://term.ooo/";
+}
