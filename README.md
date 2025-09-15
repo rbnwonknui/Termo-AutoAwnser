@@ -1,7 +1,5 @@
 # Termo-AutoAwnser
 
-![Logo](https://raw.githubusercontent.com/rbnwonknui/Termo-AutoAwnser/main/assets/logo.png) <!-- Substitua pelo caminho correto se não houver logo, ou remova esta linha -->
-
 ## ✨ O que é?
 
 **Termo-AutoAwnser** é um script automatizador para jogos de palavras como Termo, facilitando encontrar a resposta correta rapidamente direto no navegador.
