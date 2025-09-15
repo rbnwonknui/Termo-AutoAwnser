@@ -182,7 +182,7 @@ function showModal(solutions = []) {
                 <span tabindex="0" role="text" aria-label="letra L" class="letter place">L</span>
                 <span tabindex="0" role="text" aria-label="letra P" class="letter place">P</span>
             </div>
-            <p tabindex="0">Infelizmente o Script ainda não funciona de forma 100% automática então você terá que digitar uma palavra manualmente, após isso o script funcionará normalmente. Recomendo usar a palavra abaixo - faz parte da palavra e está na posição correta.</p>
+            <p tabindex="0">Infelizmente o Script ainda não funciona de forma 100% automática então você terá que digitar uma palavra manualmente, após isso o script funcionará normalmente. Recomendo usar a palavra abaixo faz parte da palavra e está na posição correta.</p>
             <div class="example">
                 <span tabindex="0" role="text" aria-label="letra P" class="letter right">P</span>
                 <span tabindex="0" role="text" aria-label="letra I" class="letter right">I</span>
