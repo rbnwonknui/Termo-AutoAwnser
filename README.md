@@ -36,7 +36,6 @@ javascript:fetch(`https://raw.githubusercontent.com/rbnwonknui/Termo-AutoAwnser/
 1. Acesse o site <a href="https://term.ooo/">term.ooo</a>
 2. Crie um favorito no seu navegador com o código acima.
 3. Clique no favorito enquanto estiver na página do Termo.
-4. Veja o script funcionando e divirta-se!
 
 ---
 
