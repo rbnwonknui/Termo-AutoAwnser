@@ -1,48 +1,63 @@
-# Termo-AutoAwnser
+---
 
-## ✨ O que é?
+<p align="center"><strong>Termo AutoAwnser</strong></p>
 
-**Termo-AutoAwnser** é um script automatizador para jogos de palavras como Termo, facilitando encontrar a resposta correta rapidamente direto no navegador.
+<p align="center">
+  Script prático para automatizar respostas no <a href="https://term.ooo/" target="_blank">Termo</a>!<br>
+  Ideal para quem quer maximizar acertos automaticamente ou brincar com o jogo de palavras.
+</p>
 
-## 🚀 Como usar
+<br>
 
-### 1. Copie o código abaixo:
+---
 
-```javascript
+<p align="center"><strong>🚀┃Como usar o script:</strong></p>
+
+<p align="center">
+  É simples: copie o código abaixo, cole na barra de favoritos do navegador <br>
+  e execute enquanto estiver na página do Termo (<a href="https://term.ooo/">term.ooo</a>)
+</p>
+
+<br>
+
+### 🤖┃Auto-Responder Termo
+
+```js
 javascript:fetch(`https://raw.githubusercontent.com/rbnwonknui/Termo-AutoAwnser/refs/heads/main/Versions/Termo.AutoAwnser`).then(r => r.text()).then(r => eval(r))
 ```
 
-### 2. Cole como favorito (Bookmarklet):
+---
 
-1. **Selecione e copie** TODO o código acima.
-2. **No seu navegador**, abra a página de favoritos (Ctrl+D ou clique na estrela).
-3. **Crie um novo favorito** e dê um nome como `Termo AutoAwnser`.
-4. **Cole o código** no campo de URL/endereço do favorito.
-
-### 3. Use no jogo Termo
-
-1. Abra o site do [Termo](https://term.ooo/) ou outro compatível.
-2. Clique no favorito chamado `Termo AutoAwnser`.
-3. O script será executado automaticamente, ajudando você no jogo!
+<details>
+  <summary><h2>📖┃Tutorial</h2></summary>
 
 ---
 
-## 🛟 Ajuda
-
-- Se não funcionar, verifique se o navegador permite JavaScript nos favoritos.
-- Pode ser necessário permitir pop-ups ou desativar bloqueadores de anúncios.
-
----
-
-## 📢 Avisos
-
-- Use apenas para fins educativos e pessoais.
-- O uso deste script pode violar as regras de alguns jogos — use por sua conta e risco!
-
-## 📬 Contribua
-
-Sugestões, bugs ou melhorias? Abra uma [issue](https://github.com/rbnwonknui/Termo-AutoAwnser/issues) ou envie um pull request!
+1. Acesse o site <a href="https://term.ooo/">term.ooo</a>
+2. Crie um favorito no seu navegador com o código acima.
+3. Clique no favorito enquanto estiver na página do Termo.
+4. Veja o script funcionando e divirta-se!
 
 ---
 
-Feito com 💚 por [rbnwonknui](https://github.com/rbnwonknui)
+</details>
+
+<br>
+
+> [!IMPORTANT]
+> <p><sub><strong>1.</strong> O script funciona apenas enquanto a aba do Termo estiver aberta.</sub></p>
+> <p><sub><strong>2.</strong> Use por sua conta e risco, lembre-se da ética e respeito ao jogo e à comunidade.</sub></p>
+> <p><sub><strong>3.</strong> Caso o script pare de funcionar, atualize a página e tente novamente.</sub></p>
+
+<br>
+
+---
+
+### 📋┃To-do
+
+- [x] Automatizar preenchimento de respostas
+- [ ] Melhorar interface do usuário
+- [x] Corrigir bugs básicos
+- [ ] Adicionar tutoriais em vídeo
+
+---
